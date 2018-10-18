@@ -1,0 +1,19 @@
+body{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.wraper{
+
+}
+	.menu{
+		margin-left: -538px;
+	}
+	.item{
+		color:orange;
+		display: inline-block;
+		float: left;
+	}
+	.item:hover{
+		color:blue;
+	}

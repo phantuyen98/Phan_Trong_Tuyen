@@ -4,9 +4,14 @@
 	<meta charset="UTF-8">
 	<title>Homework 01</title>
 	<style type="text/css">
-		#khung{
+		.khung{
 			display: inline-block;
+			border:2px black solid;
+			width: 150px;
+			text-align : center;
 		}
+		p:hover{
+			color: blue;
 		}
 		.name{
 			color: orange;
@@ -14,43 +19,44 @@
 		.price{
 			color: red;
 		}
-		#khung:hover{
+		.khung:hover{
 			color: blue;
-
+			border:2px orange solid;
+		}
 	</style>
 </head>
 <body>
 	<form>
-		<fieldset id="khung" style="width: 150px" align ="center">
+		<div class="khung" ">
 			<img align="center" src="images/1.jpg"> <br>
 			<p class="name">Galaxy Tab</p>
 			<p class="price">15.000.000 VNĐ</p>
-		</fieldset>
-		<fieldset id="khung" style="width: 150px" align ="center">
+		</div>
+		<div class="khung" ">
 			<img align="center" src="images/2.jpg"> <br>
 			<p class="name">Galaxy Tab</p>
 			<p class="price">15.000.000 VNĐ</p>
-		</fieldset>
-		<fieldset id="khung" style="width: 150px" align ="center">
+		</div>
+		<div class="khung" ">
 			<img align="center" src="images/3.jpg"> <br>
 			<p class="name">Galaxy Tab</p>
 			<p class="price">15.000.000 VNĐ</p>
-		</fieldset>
-		<fieldset id="khung" style="width: 150px" align ="center">
+		</div>
+		<div class="khung" ">
 			<img align="center" src="images/4.jpg"> <br>
 			<p class="name">Galaxy Tab</p>
 			<p class="price">15.000.000 VNĐ</p>
-		</fieldset>
-		<fieldset id="khung" style="width: 150px" align ="center">
+		</div>
+		<div class="khung" ">
 			<img align="center" src="images/5.jpg"> <br>
 			<p class="name">Galaxy Tab</p>
 			<p class="price">15.000.000 VNĐ</p>
-		</fieldset>
-		<fieldset id="khung" style="width: 150px" align ="center">
+		</div>
+		<div class="khung" ">
 			<img align="center" src="images/6.jpg"> <br>
 			<p class="name">Galaxy Tab</p>
 			<p class="price">15.000.000 VNĐ</p>
-		</fieldset>
+		</div>
 	</form>
 </body>
 </html>
