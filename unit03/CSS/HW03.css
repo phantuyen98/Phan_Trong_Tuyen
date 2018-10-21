@@ -12,8 +12,13 @@ body{
 	.item{
 		color:orange;
 		display: inline-block;
-		float: left;
 	}
 	.item:hover{
 		color:blue;
 	}
+.list{
+	list-style: none;
+}
+.menu-left{
+	float: left;
+}

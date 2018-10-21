@@ -1,0 +1,49 @@
+.menu{
+	background: green;
+}
+.item{
+	display:inline-block;
+	position: relative;
+}
+.item:hover .sub-menu{
+	display: block;
+}
+.item>a{
+	text-decoration: none;
+	color: white;
+}
+	.sub-menu{
+		padding-top: 0px;
+		list-style: none;
+		display: none;
+		position: absolute;
+	}
+	.sub-menu:hover{
+		color: white;
+	}
+.item-dm{
+	width: 170px;
+}
+.item-dm>a{
+	text-decoration: none;
+	color: black;
+}
+.tintuc{
+	position: relative;
+}
+.tin{
+	list-style: none;
+	display: none;
+	position: absolute;
+}
+	.tintuc:hover .tin{
+		display: block;
+	}
+.cha{
+	display: inline-block;
+	margin-left: 10px;
+}
+	.cha>a{
+		text-decoration: none;
+		color: white;
+	}
