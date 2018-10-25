@@ -1,0 +1,69 @@
+main{
+	margin:20px;
+}
+form{
+	margin:0 auto;
+	width: 30%;
+	border:1px grey solid;
+}
+.lg{
+	font-size: 50px;
+	margin-bottom: 50px;
+}
+.fb{
+	width: 350px;
+	height: 50px;
+	background: #3B5998;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-size: 20px;
+	border-radius: 15px;
+}
+	.login>a{
+		color: white;
+		text-decoration: none;
+	}
+.tw{
+	width: 350px;
+	height: 50px;
+	background: #00aced;
+	line-height: 50px;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 15px;
+	margin: 0 auto;
+}
+	.login>a{
+		color: white;
+		text-decoration: none;
+	}
+	.content>p>input{
+	padding-left: 10px;
+	font-size: 20px;
+	width: 350px;
+	height: 50px;
+	border-radius: 10px;
+}
+	.content>p>a{
+	color: #3399FF;
+	text-decoration: none;
+}
+.left{
+	float: left;
+}
+	.left>p>a{
+		color: #AEBEC5;
+		text-decoration: none;
+	}
+.right{
+	float: right;
+}
+	.lgin>button{
+		width: 100px;
+		height: 50px;
+		background: #c8232c;
+		color: white;
+		border-radius: 10px;
+	}

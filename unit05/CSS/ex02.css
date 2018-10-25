@@ -1,0 +1,30 @@
+.main>li>a{
+	list-style: none;
+	padding-right: 10px;
+	margin-left: 10px;
+	color: white;
+	border-right: 1px solid ;
+	text-decoration: none;
+}
+.main>li{
+		display: inline-block;
+}
+.cha{
+	position: relative;
+}
+.main{
+		background: black;
+		width: 500px;
+}
+.item>li>a{
+	text-decoration: none;
+}
+.item>li>a{
+	color: white;
+	list-style: none;
+	display: none;
+	position: absolute;
+}
+.cha:hover.item{
+	display: block;
+}
