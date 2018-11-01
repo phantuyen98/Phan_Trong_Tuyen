@@ -1,0 +1,275 @@
+.clear{
+	clear: both;
+}
+#header{
+	width: 100%;
+	height: 70px;
+	line-height: 70px; 
+}
+	.header-left{
+		width: 25%;
+		float: left;
+	}
+		.header-left>a{
+			text-decoration: none;
+		}
+			.header-left>a>h1{
+				color: black;
+				margin: 0;
+				padding-left: 10%;
+			}
+				.header-left>a>h1>p{
+					color: orange;
+					margin: 0;
+					display: inline-block;
+				}
+				.bar>a{
+					display: none;
+				}
+	.header-right{
+		width: 73%;
+		float: right;
+		display: inline-block;
+	}
+		.header-right>ul{
+			margin: 0;
+		}
+			.header-right>ul>li{
+				padding-left: 3%;
+				list-style: none;
+				display: inline-block;
+			}
+				.bar{
+					display: none;
+				}
+				.header-right>ul>li>a{
+					text-decoration: none;
+				}
+				.mau{
+					color: orange;
+				}
+				.omau{
+					color: black;
+				}
+#content{
+	margin: 10px auto;
+}
+	.img1{
+		width: 100%;
+	}
+	.content1{
+		text-align: center;
+		width: 100%;
+		margin: 10px auto;
+		padding-top: 20px;
+	}
+		.content1>p{
+			width: 60%;
+			margin: 0 auto;
+			padding-bottom: 10px;
+		}
+		.content1>h3{
+			width: 95%;
+			margin: 0 auto;
+		}
+	.content2{
+		padding: 30px 0px;
+		width: 100%;
+	}
+		.content2-item{
+			text-align: center;
+			display: inline-block;
+			padding: 0;
+			width: 24%;
+		}
+			.icon{
+				background: #ff4000;
+				border-radius: 50%;
+				margin: auto;
+				width: 80px;
+				height: 80px;
+				text-align: center;
+			}
+			.content2-item>p>i{
+				font-size: 30px;
+				line-height: 80px;
+				color: #fff;
+				margin: auto;
+			}
+			.ct{
+				padding-top: 30px;
+			}
+	.content3{
+		width: 100%;
+		text-align: center;
+	}
+		.content3>h1{
+			padding-top: 30px;
+		}
+		.content3>p{
+
+		}
+	.content4{
+		width: 100%;
+	}
+		.img2, .img3{
+			width: 49%;
+			display: inline-block;
+		}
+	.content5{
+		width: 100%;
+	}
+		.content5-item{
+			width: 27%;
+			float: left;
+			padding-left: 5%;
+		}
+			.left-icon{
+				width: 20%;
+				display: inline-block;
+			}
+			.right-ct5{
+				width: 73%;
+				display: inline-block;
+			}
+			.icon-ct5{
+				float: left;
+				background: #ff4000;
+				text-align: center;
+				width: 80px;
+				height: 80px;
+				border-radius: 50%;
+				display: inline-block;
+				padding: 0;
+			}
+				.icon-ct5>i{
+					font-size: 30px;
+					line-height: 80px;
+					color: #fff;
+					margin: auto;
+				}
+	.content6{
+		margin-top: 50px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		color: #fff;
+		width: 100%;
+		background: #ff4000;
+		text-align: center;
+	}
+		.content6-item>a{
+			background:white;
+			text-decoration: none;
+			color: black;
+			border-radius: 20px;
+			padding: 10px;
+		}
+	.content7{
+		text-align: center;
+		width: 100%;
+	}
+	.content8{
+
+	}
+		.content8-item{
+			text-align: center;
+			width: 24%;
+			float: left;
+		}
+			.content8-item>h2>a{
+				text-decoration: none;
+				color: black;
+			}
+			.content8-item>img{
+				border-radius: 20%;
+			}
+#footer{
+	width: 100%;
+	background-color: #3c4146;
+	color: #fff;
+}
+	.icon-ft>i{
+		padding-right: 20px;
+	}
+	.ft-item{
+		width: 25%;
+		padding: 0 3%;
+		float: left;
+	}
+		.koke{
+			border-bottom: 1px black solid;
+			padding-bottom: 10px;
+		}
+#ft2{
+	background-color: black;
+	color: #fff;
+}
+	.ft2-item{
+		padding-left: 3%;
+	}
+		.left-ft{
+			width: 37%;
+			float: left;
+		}
+		.right-ft{
+			width: 57%;
+			float: right;
+		}
+		.right-ft>ul{
+			list-style: none;
+		}
+			.right-ft>ul>li{
+				display: inline-block;
+				padding-right: 5%;
+			}
+				.right-ft>ul>li>a{
+					text-decoration: none;
+					color: white;
+				}
+
+@media(max-width: 769px){
+	.content4{
+		width: 100%;
+	}
+	.img2 , .img3{
+		width: 80%;
+		padding: 0 10%;
+	}
+	.content5-item{
+		width: 100%;
+	}
+	.content8-item{
+		width: 100%;
+	}
+	.ft-item{
+		width: 100%;
+	}
+}
+@media(max-width: 376px){
+	.hd>a{
+		display: none;
+	}
+	.bar>a{
+		display: block;
+		float: right;
+	}
+	.content4{
+		width: 100%;
+	}
+	.img2 , .img3{
+		width: 80%;
+		padding: 0 10%;
+	}
+	.content5-item{
+		width: 100%;
+	}
+	.content8-item{
+		width: 100%;
+	}
+	.ft-item{
+		width: 100%;
+	}
+	.content2-item{
+		width: 100%;
+	}
+}
