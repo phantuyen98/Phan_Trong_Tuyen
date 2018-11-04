@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/main.js">
+		
+	</script>
+</head>
+<body>
+	<input type="text" id="input" name="">
+	<button onclick="add()">Add</button>
+	<div id="content"></div>
+	<script type="text/javascript">
+		function add(){
+			var input = document.getElementById('input');
+			var a = input.value;
+			document.getElementById('content').innerHTML = a;
+			input.value = ''
+		}
+	</script>
+</body>
+</html>
