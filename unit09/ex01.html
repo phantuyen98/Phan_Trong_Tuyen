@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="goZent">
+	<script type="text/javascript">
+	var select = document.getElementById('goZent')
+	select.addEventListener('blur', function(){
+		select.value = select.value.toUpperCase()
+	})
+</script>
+</body>
+</html>

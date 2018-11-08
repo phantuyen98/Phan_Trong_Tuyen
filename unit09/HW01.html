@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework 01</title>
+</head>
+<body>
+	<p id="text" style="font-size: 20px">Cỡ chữ</p>
+	<input type="button" value="Mặc định" onclick="md()">
+	<input type="button" value="Lớn" onclick="to()">
+	<input type="button" value="Nhỏ" onclick="nho()">
+	<script type="text/javascript">
+		function to(){
+			var size = document.getElementById('text').style.fontSize;
+			var int = parseInt(size.split('px')[0])*1.4;
+			document.getElementById('text').style.fontSize= int+'px';
+		}
+		function nho(){
+			var size = document.getElementById('text').style.fontSize;
+			var int = parseInt(size.split('px')[0])/1.4;
+			document.getElementById('text').style.fontSize= int+'px';
+		}
+		function md(){
+			var size = document.getElementById('text').style.fontSize;
+			document.getElementById('text').style.fontSize= '20px';
+		}
+	</script>
+</body>
+</html>

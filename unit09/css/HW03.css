@@ -1,0 +1,14 @@
+.clear{
+	clear: both;
+}
+body{
+	background-size: cover;
+}
+.tag{
+	margin-right: 10px;
+	background: grey;
+	float: left;
+}
+.content{
+	float: left
+}
