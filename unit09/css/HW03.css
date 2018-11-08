@@ -1,14 +1,27 @@
-.clear{
-	clear: both;
-}
 body{
-	background-size: cover;
-}
-.tag{
-	margin-right: 10px;
-	background: grey;
-	float: left;
-}
-.content{
-	float: left
-}
+		background-color: lavender;
+	}
+	.ct{
+		color: black;
+		display: none;
+		padding: 20px 0;
+	}
+	.ct>h3{
+		margin: 0;
+		padding-bottom: 20px;
+	}
+	.btn-active{
+		background: white!important;;
+	}
+	.ct-active{
+		display:block !important;
+		background: white;
+		width: 70%;
+		height: 
+		border-color: gray;
+		display: block;
+	}
+	.btn{
+		background: gray;
+		border: 0;
+	}
