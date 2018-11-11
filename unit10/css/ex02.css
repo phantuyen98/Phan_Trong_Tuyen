@@ -1,0 +1,10 @@
+#container{
+	width: 40%;
+	margin: auto;
+}
+p{
+	margin-bottom: 0;
+}
+input{
+	width: 100%;
+}

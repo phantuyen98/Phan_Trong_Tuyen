@@ -1,0 +1,21 @@
+img{
+	width: 100%;
+}
+.container{
+	position: relative;
+	margin: auto;
+}
+.item{
+	display: none;
+}
+a{
+	text-decoration: none;
+}
+.prev, .next{
+	position: absolute;
+	font-size: 100px;
+	top: 50%;
+}
+.next{
+	right: 0%;
+}
