@@ -1,0 +1,48 @@
+#main{
+	width: 80%;
+	margin: 0 auto;
+}
+#header{
+	background: #ff5a00;
+	width: 100%;
+	padding-bottom: 50px;
+}
+h2{
+	margin-top: 0;
+	color: white;
+}
+.input{
+	width: 90%;
+}
+.add{
+	width: 9%;
+}
+input{
+	height: 30px;
+}
+.ct{
+	text-align: center;
+	margin: 0 auto;
+	width: 80%;
+}
+table{
+	width: 85%;
+	margin: 0 auto;
+}
+i{
+	width: 2%;
+}
+.fa-check{
+	display: none;
+}
+.check{
+	width: 3%;
+}
+.del{
+	width: 3%;
+	cursor: pointer;
+}
+.cv{
+	width: 93%;
+	cursor: pointer;
+}
