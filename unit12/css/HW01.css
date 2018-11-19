@@ -1,0 +1,46 @@
+#checkbox{
+	width: 5%;
+}
+#main{
+	width: 80%;
+	margin: 0 auto;
+}
+hr{
+	margin: 20px 0 20px 0;
+}
+#tag input{
+	background-color: #2184be;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#content{
+	background-color: #D8D8D8;
+	padding: 10px 30px 30px 30px;
+	margin: 15px auto;
+	border-radius: 5px;
+}
+#footer input{
+	background-color: #2184be;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#content input{
+    width: 70%;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.ct2, .ct3, .ct4{
+	display: none;
+}
+#footer{
+	float: right;
+}
