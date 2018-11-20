@@ -1,13 +1,14 @@
 $(function(){
-	var user = $('.user').val();
-	var pass = $('.pass').val();
-	var pass1 = $('.pass1').val();
-	var first = $('first').val();
-	var last = $('.last').val();
-	var mail = $('.mail').val();
-	var address = $('.address').val();
-	var age = $('.age').val();
-	$('.user').change(function(){
+	var user = $('#user').val().trim();
+	var pass = $('#pass').val().trim();
+	var pass1 = $('#pass1').val().trim();
+	var first = $('#first').val();
+	var last = $('#last').val();
+	var mail = $('#mail').val();
+	var address = $('#address').val();
+	var age = $('#age').val();
+	$('#user').change(function(){
+		alert(user)
 		if (user == '') {
 			$('.tb1').text('This field is required.')
 		}
@@ -15,7 +16,7 @@ $(function(){
 			$('.tb1').text('')
 		}
 	})
-	$('.pass').change(function(){
+	$('#pass').change(function(){
 		if (pass == '') {
 			$('.tb2').text('This field is required.')
 		}
@@ -55,22 +56,35 @@ $(function(){
 			$('.tb6').text('')
 		}
 	})
-	$('.next').click(function(){
-		if ($('ct1').css('display', 'block')) {
+	$('.next1').click(function(){
 			$('.ct1').css('display','none')
 			$('.ct2').css('display','block')
-		}
-		if ($('.ct2').css('display','block')) {
+	})
+	$('.next2').click(function(){
 			$('.ct2').css('display','none')
 			$('.ct3').css('display','block')
-		}
-		if ($('.ct3').css('display','block')) {
+	})
+	$('.next3').click(function(){
 			$('.ct3').css('display','none')
 			$('.ct4').css('display','block')
-		}
-		if ($('.ct4').css('display','block')) {
-			alert('This is last tag.')
-		}
+	})
+	$('.finish').click(function(){	
+			alert('Submit.')
+	})
+
+	$('.prev1').click(function(){
+	})
+	$('.prev2').click(function(){
+			$('.ct2').css('display','none')
+			$('.ct1').css('display','block')
+	})
+	$('.prev3').click(function(){
+			$('.ct3').css('display','none')
+			$('.ct2').css('display','block')
+	})
+	$('.prev4').click(function(){	
+			$('.ct4').css('display','none')
+			$('.ct3').css('display','block')
 	})
 
 })
